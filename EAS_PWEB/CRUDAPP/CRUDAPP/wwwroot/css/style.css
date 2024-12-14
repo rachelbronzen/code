@@ -1,0 +1,59 @@
+﻿body {
+    background-color: #e6f7ff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1, h4 {
+    color: #5a9bd5;
+}
+
+.btn {
+    background-color: #9dcffb;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #4b87a9;
+        color: #e6f7ff;
+    }
+
+
+.table {
+    background-color: #eaf4fc; 
+    border: 1px solid #d1e9f9;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #cce4f7;
+}
+
+.form-control {
+    border: 1px solid #bcd8f2;
+    background-color: #f0faff;
+}
+
+    .form-control:focus {
+        border-color: #5a9bd5;
+        box-shadow: 0 0 5px rgba(90, 155, 213, 0.5);
+    }
+
+.form-label {
+    color: #4b87a9;
+}
+
+a {
+    color: #5a9bd5;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #4b87a9;
+        text-decoration: underline;
+    }
+
+.text-danger {
+    color: #b94a48;
+}
